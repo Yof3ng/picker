@@ -28,12 +28,12 @@ rss:
       https://raw.githubusercontent.com/zhengjim/Chinese-Security-RSS/master/Chinese-Security-RSS.opml
     filename: Chinese-Security-RSS.opml
   awesome-security-feed:
-    enabled: true
+    enabled: false
     url: >-
       https://raw.githubusercontent.com/mrtouch93/awesome-security-feed/main/security_feeds.opml
     filename: awesome-security-feed.opml
   SecurityRSS:
-    enabled: true
+    enabled: false
     url: 'https://github.com/Han0nly/SecurityRSS/blob/master/SecureRss.opml'
     filename: SecureRss.opml
   wechatRSS:
