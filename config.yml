@@ -1,22 +1,25 @@
-repo: https://github.com/chainreactors/picker
+repo: https://github.com/zer0yu/picker
 proxy:
   url: 'http://127.0.0.1:7890'
   rss: false
   bot: false
 rss:
   CustomRSS:
-    enabled: true
+    enabled: false
     filename: CustomRSS.opml
+  ResearchRSS:
+    enabled: true
+    filename: ResearchRSS.opml
   Subscriptions-OnMyMac:
     enabled: true
     filename: Subscriptions-OnMyMac.opml
   CyberSecurityRSS:
-    enabled: true
+    enabled: false
     url: >-
       https://raw.githubusercontent.com/zer0yu/CyberSecurityRSS/master/CyberSecurityRSS.opml
     filename: CyberSecurityRSS.opml
   CyberSecurityRSS-tiny:
-    enabled: false
+    enabled: true
     url: 'https://raw.githubusercontent.com/zer0yu/CyberSecurityRSS/master/tiny.opml'
     filename: CyberSecurityRSS-tiny.opml
   Chinese-Security-RSS:
@@ -38,7 +41,7 @@ rss:
     url: 'https://wechat2rss.xlab.app/opml/sec.opml'
     filename: wechatRSS.opml
   chinese-independent-blogs:
-    enabled: false
+    enabled: true
     url: >-
       https://raw.githubusercontent.com/timqian/chinese-independent-blogs/master/feed.opml
     filename: chinese-independent-blogs.opml
@@ -54,8 +57,8 @@ bot:
   dingtalk:
     enabled: true
     secrets: DINGTALK_KEY
-    key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    key: DINGTALK_KEY
+    secret: DINGTALK_SECRET
   qq:
     enabled: false
     secrets: QQ_KEY
@@ -83,5 +86,5 @@ pick_bot:
   dingtalk:
     enabled: true
     secrets: DINGTALK_KEY
-    key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    key: DINGTALK_KEY
+    secret: DINGTALK_SECRET
