@@ -33,7 +33,7 @@ rss:
       https://raw.githubusercontent.com/mrtouch93/awesome-security-feed/main/security_feeds.opml
     filename: awesome-security-feed.opml
   SecurityRSS:
-    enabled: false
+    enabled: true
     url: 'https://github.com/Han0nly/SecurityRSS/blob/master/SecureRss.opml'
     filename: SecureRss.opml
   wechatRSS:
@@ -74,14 +74,16 @@ bot:
       - '-799557100'
     key: xxxxxxxxxx
   mail:
-    enabled: false
+    enabled: true
     secrets: MAIL_KEY
+    # secrets: psrwunccozstddif
     secrets_receiver: MAIL_RECEIVER
+    # secrets_receiver: 'z3verse@outlook.com'
     address: z3verse@qq.com
     server: smtp.qq.com
     from: security-bot <z3r0yu@qq.com>
-    receiver: 'z3verse@outlook.com'
-    key: xxxxxxxxxx
+    receiver: MAIL_RECEIVER
+    key: MAIL_KEY
 pick_bot:
   dingtalk:
     enabled: true

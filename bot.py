@@ -258,13 +258,17 @@ class mailBot:
     @staticmethod
     def parse_results(results: list):
         text = f'<html><head><h1>每日安全资讯（{today}）</h1></head><body>'
-        for result in results:
-            (feed, value), = result.items()
+        for feed, value in results.items():
+            # print(results)
+            # print(results[result])
+            # (feed, value), = result.items()
+            # print(feed, value)
             text += f'<h3>{feed}</h3><ul>'
             for title, link in value.items():
                 text += f'<li><a href="{link}">{title}</a></li>'
             text += '</ul>'
         text += '<br><br><b>如不需要，可直接回复本邮件退订。</b></body></html>'
+        # print(text)
         return text
 
     def send(self, text: str):
@@ -283,6 +287,8 @@ class mailBot:
             Color.print_failed('[+] mailBot 发送失败')
             print(e)
 
+    def send_raw(self, title, text):
+        pass
 
 # class telegramBot:
 #     """Telegram机器人
