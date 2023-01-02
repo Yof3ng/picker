@@ -42,8 +42,8 @@ jobs:
       - name: Commit
         run: |
           git diff
-          git config --global user.email chainreactorbot@gmail.com
-          git config --global user.name chainreactorbot
+          git config --global user.email zeroyu@protonmail.com
+          git config --global user.name z3r0yu
           git add archive today.md
           git commit -m "每日安全资讯（`date +'%Y-%m-%d'`）"
 
