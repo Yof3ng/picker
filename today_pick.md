@@ -1,6 +1,1 @@
-# 昨日精选汇总（2023-03-03）
-
-- zer0yu 手动精选
-
-  - [1-03] RT Nicolas Krassas: Make URL path combinations using a wordlist]() - [discussion](https://github.com/zer0yu/picker/issues/11)
-  - [1-03] RT Trickest: Gather a list of 2.5 MILLION hostnames belonging to public bug bounty programs from Inventory 🤹]() - [discussion](https://github.com/zer0yu/picker/issues/10)
+昨日(2023-03-04)没有精选文章
