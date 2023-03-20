@@ -240,7 +240,6 @@
 <outline text="Reverse" title="Reverse">
 <outline htmlUrl="http://misty.moe" title="Misty的小窝~" xmlUrl="http://misty.moe/feed/" text="Misty的小窝~" type="rss" />
 <outline htmlUrl="http://pzhxbz.cn" text="pzhxbz的技术笔记本" type="rss" title="pzhxbz的技术笔记本" xmlUrl="http://pzhxbz.cn/?feed=rss2" />
-<outline title="Twitter Florian Roth" xmlUrl="https://rsshub.app/twitter/user/cyb3rops" type="rss" text="Twitter Florian Roth" htmlUrl="https://twitter.com/cyb3rops" />
 <outline xmlUrl="http://www.rutk1t0r.org/atom.xml" text="rutk1t0r's blog" htmlUrl="/embpgp.github.io/atom.xml" type="rss" title="rutk1t0r's blog" />
 <outline xmlUrl="https://blog.recurity-labs.com/atom.xml" text="The Recurity Lablog" type="rss" title="The Recurity Lablog" htmlUrl="http://blog.recurity-labs.com/" />
 <outline title="Hex Rays" text="Hex Rays" htmlUrl="https://hex-rays.com" type="rss" xmlUrl="https://www.hex-rays.com/feed/" />
