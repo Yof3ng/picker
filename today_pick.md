@@ -1,5 +1,1 @@
-# 昨日精选汇总（2023-03-20）
-
-- zer0yu 手动精选
-
-  - [Ubuntu Security Notice USN-5924-1]() - [discussion](https://github.com/zer0yu/picker/issues/166)
+昨日(2023-03-21)没有精选文章
