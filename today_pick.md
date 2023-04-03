@@ -1,7 +1,1 @@
-# 昨日精选汇总（2023-04-01）
-
-- zer0yu 手动精选
-
-  - [dotnet host startup hook]() - [discussion](https://github.com/zer0yu/picker/issues/13)
-  - [FortiGate防火墙利用]() - [discussion](https://github.com/zer0yu/picker/issues/15)
-  - [TetCTF2023&Liferay(CVE-2019-16891)(Pre-Auth RCE)]() - [discussion](https://github.com/zer0yu/picker/issues/14)
+昨日(2023-04-02)没有精选文章
