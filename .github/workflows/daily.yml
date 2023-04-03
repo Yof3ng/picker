@@ -48,6 +48,8 @@ jobs:
           git commit -m "每日安全资讯（`date +'%Y-%m-%d'`）"
 
       - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.MY_GITHUB_TOKEN }}
