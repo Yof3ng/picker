@@ -2,7 +2,17 @@
 <opml version="2.0">
 <head><title>CustomRSS</title></head>
 <body>
-<outline title="SecWiki News" text="SecWiki News" htmlUrl="http://www.sec-wiki.com/" xmlUrl="https://www.sec-wiki.com/news/rss" type="rss" />
-<outline text="SAP Blogs" htmlUrl="https://blogs.sap.com" xmlUrl="https://blogs.sap.com/feed/" type="rss" title="SAP Blogs" />
+<outline text="https://blog.nviso.eu/feed/" type="rss" xmlUrl="https://blog.nviso.eu/feed/"/>
+<outline text="https://www.malware-traffic-analysis.net/blog-entries.rss" type="rss" xmlUrl="https://www.malware-traffic-analysis.net/blog-entries.rss"/>
+<outline text="https://www.malwarefox.com/blog/feed/" type="rss" xmlUrl="https://www.malwarefox.com/blog/feed/"/>
+<outline text="https://securityaffairs.co/wordpress/category/malware/feed" type="rss" xmlUrl="https://securityaffairs.co/wordpress/category/malware/feed"/>
+<outline text="https://malwaretips.com/blogs/feed/" type="rss" xmlUrl="https://malwaretips.com/blogs/feed/"/>
+<outline text="https://blog.sucuri.net/tag/malware/feed" type="rss" xmlUrl="https://blog.sucuri.net/tag/malware/feed"/>
+<outline text="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/feed" type="rss" xmlUrl="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/feed"/>
+<outline text="https://blog.malwarebytes.com/feed/" type="rss" xmlUrl="https://blog.malwarebytes.com/feed/"/>
+<outline text="https://www.malwaretech.com/feed" type="rss" xmlUrl="https://www.malwaretech.com/feed"/>
+<outline text="https://www.intego.com/mac-security-blog/category/malware/feed/" type="rss" xmlUrl="https://www.intego.com/mac-security-blog/category/malware/feed/"/>
+<outline text="https://blog.reversinglabs.com/blog/tag/malware/rss.xml" type="rss" xmlUrl="https://blog.reversinglabs.com/blog/tag/malware/rss.xml"/>
+<outline text="https://iotsecuritynews.com/feed/" type="rss" xmlUrl="https://iotsecuritynews.com/feed/"/>
 </body>
 </opml>
