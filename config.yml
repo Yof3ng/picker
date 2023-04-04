@@ -5,7 +5,7 @@ proxy:
   bot: false
 rss:
   CustomRSS:
-    enabled: false
+    enabled: true
     filename: CustomRSS.opml
   ResearchRSS:
     enabled: true
