@@ -6,7 +6,7 @@ proxy:
 rss:
   CustomRSS:
     enabled: true
-    filename: 'https://raw.githubusercontent.com/Yof3ng/picker/master/rss/CustomRSS.opml'
+    filename: CustomRSS.opml
   ResearchRSS:
     enabled: true
     filename: ResearchRSS.opml
